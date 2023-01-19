@@ -95,13 +95,20 @@ iframe:hover {
     padding: 10px 5px 10px 5px;
 }
 
+.voirplus {
+    display:grid;
+    justify-content: center;
+}
 #voirplus-playlist {
-    display: grid;
-    justify-self: center;
-    padding: 10px 5px 10px 5px;
+    padding: 15px 25px 15px 25px;
     background-color: white;
     color: rgb(45,45,45);
     font-weight: 600;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 
 /*------------------------MEDIA QUERIES-----------------------------*/
