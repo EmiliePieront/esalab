@@ -106,6 +106,9 @@ iframe:hover {
     .animated-text {
         width: 500px;
     }
+    .animated-text span {
+        font: 700 3em/1 "Oswald", sans-serif;
+    }
 }
 @media (max-width: 600px) { 
     .playlist {
@@ -115,6 +118,6 @@ iframe:hover {
         width: 360px;
     }
     .animated-text span {
-        font: 700 4em/1 "Oswald", sans-serif;
+        font: 700 2em/1 "Oswald", sans-serif;
     }
 }
