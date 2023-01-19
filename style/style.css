@@ -64,7 +64,7 @@ header {
     max-width: 1200px;
     height: 100%;
     margin: auto;
-    background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #AD73FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #FFBF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #FFBD6DF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+    background-image: radial-gradient(75% 75% at 97% 15%, #FFFFFFFF 0%, #FFFFFF00 80%, #073AFF00 100%),radial-gradient(75% 75% at 79% 48%, #C632D1FF 0%, #073AFF29 59%, #073AFF00 97%),radial-gradient(75% 75% at 52% 48%, #00FFFFFF 7%, #FFFFFF00 64%),repeating-conic-gradient(from 90deg at 50% 50%, #FF9000FF 0%, #FFF900FF 21%, #00FF39FF 38%, #00C5FFFF 55%, #5B00FFFF 70%, #FF00B7FF 87%, #FF074FFF 100%);
     border-radius: 10px;
 }
 
@@ -95,6 +95,14 @@ iframe:hover {
     padding: 10px 5px 10px 5px;
 }
 
+#voirplus-playlist {
+    display: grid;
+    justify-self: center;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    color: rgb(45,45,45);
+    font-weight: 600;
+}
 
 /*------------------------MEDIA QUERIES-----------------------------*/
 
