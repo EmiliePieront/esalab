@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="voirplus">
-            <button type="button" id="voirplus-playlist">Voir plus</button>
+            <button type='submit' id="voirplus-playlist" onClick='modifyText()' value='Voir plus'>Voir plus</button>
         </div>
         
     </div>
@@ -63,20 +63,21 @@
         matches[i].style.display = "none"
         };
         let button = document.querySelector("#voirplus-playlist")
-        button.addEventListener('click', function() { 
-        for (let i = 3; i < matches.length; i++) {
-            if (matches[i].style.display == ""){
-                matches[i].style.display = "none"
-            }else{
-                matches[i].style.display = ""
-            }; 
-            if(button.innerHTML == "Voir plus"){
-                button.innerHTML = "Voir moins"
-            } else {
-                button.innerHTML = "Voir plus"
-            };
+        var el = document.getElementById('voirplus-playlist');
+        el.onclick = function modifyText() {
+        if (el.innerHTML == 'Voir plus') {
+            el.innerText = 'Voir moins';
+        } else if (el.innerHTML == 'Voir moins') {
+            el.innerText = 'Voir plus';
         };
-        });
+            for (let i = 3; i < matches.length; i++) {
+            if (matches[i].style.display == ""){
+            matches[i].style.display = "none"
+            }else{
+            matches[i].style.display = ""
+            }; 
+        };
+        };
     </script>
 </body>
 </html>
