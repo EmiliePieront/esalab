@@ -5,8 +5,6 @@
 body {
     position: relative;
     width: 100%;
-    /* background-size: 100% 100%; */
-    /* background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px; */
 }
 
 /*----------------------------NAVBAR-----------------------------------*/
@@ -23,21 +21,9 @@ header {
     background-color: rgba(0, 0, 0, 1);
     text-align: center;
     margin-bottom: 20px;
-
     font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0;
 }
-
-/* .colored-title {
-    font-weight: 600;
-    background: linear-gradient(45deg, rgb(255, 0, 170), rgb(255, 136, 0), rgb(38, 0, 255), rgb(255,255,255));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-} */
-
 .animated-text {
-    /* position: absolute;
-	top: 10px;
-	left: 50%; */
 	width: 800px;
 	text-transform: uppercase;
 	letter-spacing: .5em;
@@ -45,7 +31,6 @@ header {
 	border: 4px double rgba(255,255,255,.25);
 	border-width: 4px 0;
 	padding: 15px 0em;
-	/* margin: 0 0 0 -20em; */
 }
 .animated-text span {
   font: 700 2em/1 "Oswald", sans-serif;
