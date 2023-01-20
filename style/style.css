@@ -112,7 +112,8 @@ iframe:hover {
 }
 .fun-pics{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
 }
 .fun-pics a {
     margin: 0 10px 10px 10px;
