@@ -113,18 +113,26 @@ iframe:hover {
 .fun-pics{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    padding: 20px;
 }
 .fun-pics a {
+    display: grid;
+    justify-content: center;
     margin: 0 10px 10px 10px;
     width: 360px;
     height: 360px;
 }
 .fun-pics img {
     max-width: 360px;
-    height: auto;
+    max-height: 360px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box {
+    margin: 0 20px 0 20px;
 }
 /*------------------------MEDIA QUERIES-----------------------------*/
 
