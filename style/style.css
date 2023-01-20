@@ -110,6 +110,7 @@ iframe:hover {
     cursor: pointer;
     margin-bottom: 20px;
 }
+
 .fun-pics{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
